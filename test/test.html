@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script>
+      mocha.ui('bdd');
+      mocha.reporter('html');
+      expect = chai.expect;
+    </script>
+    <script>
+      chai.should();
+      describe('String', function() {
+        describe('#length', function() {
+          it("gives the length of the string", function() {
+            "abc".length.should.equal(3);
+          });
+        });
+      });
+    </script>
+    <script>
+      if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+      else { mocha.run(); }
+    </script>
+  </body>
+</html>

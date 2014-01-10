@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "mvstar",
+  "version": "0.0.0",
+  "description": "an egotistical little JS MV* library",
+  "main": "mvstar.js",
+  "directories": {
+    "lib": "lib",
+    "doc": "doc",
+    "bin": "bin",
+    "man": "man"
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjjb/mvstar"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "author": "bjjb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjjb/mvstar/issues"
+  },
+  "homepage": "https://github.com/bjjb/mvstar",
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "phantomjs": "~1.9.2-6",
+    "docco": "~0.6.2",
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1",
+    "mocha-phantomjs": "~3.3.1"
+  },
+  "dependencies": {
+    "mustache": "~0.8.1"
+  }
+}
