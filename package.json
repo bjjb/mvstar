@@ -18,7 +18,7 @@
     "url": "https://github.com/bjjb/mvstar"
   },
   "keywords": [
-    "framework"
+    "model", "view", "controller", "router", "server", "client", "browser"
   ],
   "author": "bjjb",
   "license": "ISC",
